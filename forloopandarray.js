@@ -26,8 +26,12 @@ function example4(){
 
 }
 
+//Creating test code
 function main(){
-
+    console.log(example1());
+    console.log("The total # of bits is "+example2());
+    console.log("Your average ping for internet is "+example3());
+    console.log("The first pitch thrown above 95 was pitch-index "+example4());
 }
-
+//run test code with CTRL + SHIFT + B
 main();
